@@ -20,6 +20,7 @@
                 android:src="@drawable/phone" />
 
             <TextView
+                style="@style/TextContent.Small.White"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
@@ -36,6 +37,7 @@
         </FrameLayout>
 
         <TextView
+            style="@style/TextContent.Black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/margin"
@@ -47,6 +49,7 @@
             android:textSize="32sp" />
 
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12sp"
@@ -56,6 +59,7 @@
             android:text="@string/stock" />
 
         <TextView
+            style="@style/TextContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/margin"
@@ -66,6 +70,7 @@
             android:textColor="@android:color/white" />
 
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12sp"
@@ -93,6 +98,7 @@
                 android:layout_marginBottom="@dimen/margin">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -100,6 +106,7 @@
                     android:text="@string/display" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@android:color/white"
@@ -114,6 +121,7 @@
                 android:layout_marginBottom="@dimen/margin">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/margin"
@@ -121,6 +129,7 @@
                     android:text="@string/size" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -135,6 +144,7 @@
                 android:layout_marginBottom="@dimen/margin">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/margin"
@@ -142,6 +152,7 @@
                     android:text="@string/battery" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -152,6 +163,7 @@
         </TableLayout>
 
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12sp"
@@ -176,6 +188,7 @@
                 android:src="@drawable/erin" />
 
             <TextView
+                style="@style/TextContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
